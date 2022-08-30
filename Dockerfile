@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 node:16
+FROM public.ecr.aws/docker/library/node:16-alpine as builder
 WORKDIR /app
 COPY package*.json ./
 COPY tsconfig*.json ./
