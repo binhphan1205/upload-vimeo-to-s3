@@ -4,8 +4,8 @@
   "description": "",
   "main": "vimeo.ts",
   "scripts": {
-    "dev": "ts-node src/vimeo.ts",
-    "start": "ts-node dist/vimeo.js",
+    "dev": "ts-node src/index.ts",
+    "start": "ts-node dist/index.js",
     "build": "tsc -p ."
   },
   "keywords": [],
