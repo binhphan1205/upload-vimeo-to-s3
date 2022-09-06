@@ -1,5 +1,4 @@
 import AWS, { S3 } from "aws-sdk";
-import { integer } from "aws-sdk/clients/cloudfront";
 require('dotenv').config();
 
 const Vimeo = require("vimeo").Vimeo;
