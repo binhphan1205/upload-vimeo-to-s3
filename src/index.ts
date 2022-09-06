@@ -55,7 +55,7 @@ const getVideo = async (videoId: string) => {
           let targetFile = body.name + '.mp4'
           download(url).pipe(fs.createWriteStream(targetFile).on("finish", async() => {
             await uploadToS3(targetFile)
-            console.log("download complete")
+            console.log("Download complete")
           }));
         })();
       }
