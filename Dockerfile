@@ -5,4 +5,5 @@ COPY package*.json ./
 COPY tsconfig*.json ./
 RUN npm install
 COPY . ./
-CMD ["sh", "-c", "npm run build && npm start"]
+RUN npm run build
+CMD ["sh", "-c", "npm start"]
