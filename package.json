@@ -2,7 +2,7 @@
   "name": "type-script-ecs-fargate",
   "version": "1.0.0",
   "description": "",
-  "main": "vimeo.ts",
+  "main": "index.ts",
   "scripts": {
     "dev": "ts-node src/index.ts",
     "start": "ts-node dist/index.js",
